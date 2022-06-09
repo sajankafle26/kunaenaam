@@ -1,0 +1,48 @@
+$brand: #055999;
+.navbar-nav .nav-link.active
+{
+     background: $brand;
+     color: #fff !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    padding: 15px;
+    text-transform: uppercase;
+    color: $brand;
+    &:hover 
+    {
+        background: $brand;
+        color: #fff;
+    }
+}
+.carousel-caption
+{
+    left: 10%;
+    text-align: left;
+    bottom: 140px;
+    h5 
+    {
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+.sbox 
+{
+    padding: 40px 20px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    &:hover 
+    {
+        border: 1px solid $brand;
+        background: #fff;
+    }
+    h1 
+    {
+        padding: 40px 0;
+    }
+}
+.btn-primary
+{
+    background: $brand;
+    border-radius: 0;
+}
